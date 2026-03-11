@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* 404 */
+#error {
+    font-size: 24px;
+    color: red;
+}
+
+#error:hover {
+    color: var(--black);
+}

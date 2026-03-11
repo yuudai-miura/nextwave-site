@@ -1,0 +1,46 @@
+/* base */
+.archive {
+    padding: 0px 0 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.archive_category,
+.archive_yearly {
+    display: flex;
+    flex-direction: column;
+}
+
+.archive_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.archive_list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.archive_list li {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px
+}
+
+.archive_list li a {
+    border: 1px solid var(--black);
+    padding: 10px 30px;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: var(--black);
+}
